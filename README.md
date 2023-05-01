@@ -2,6 +2,11 @@
 
 I initially wrote a Technet article about this [here](https://learn.microsoft.com/en-us/archive/blogs/samdrey/how-to-load-exchange-management-shell-into-powershell-ise-2), but the formatting has been messed up a bit since it was moved to learn.microsoft.com. Since I cannot modify my initial article, I'll just put the quick steps here.
 
+Basically what we do here is that we just copy the Exchange Management Shell "traditional" shortcut definition on the ISE profile file. In the below script, we also test that Exchange cmdlets are not already present before loading the Exchange Management cmdlets – for more information about ISE profile, see this link.
+
+What I find convenient with ISE is that you can use intellisense and color highlight when editing your Exchange PowerShell Management scripts, and also copy/paste color-coded Exchange instructions for your blogging or documentation purposes, which I did for my last posts.
+
+Also, with Powershell ISE, you have an action pane that drills down all the cmdlets that are loaded with your current session – loading the Exchange Management Shell within ISE will also provide you all the available Exchange (2010, 2013, 2016) cmdlets available for Exchange management. Note that this "action pane" in ISE also loads all O365 and/or Azure cmdlets if you import a Powershell Session where you are connected to your O365/Azure tenant.
 
 ![image](https://user-images.githubusercontent.com/33433229/235512180-654bf049-c40a-4be3-b2ea-3661bd3e34d1.png)
 
