@@ -69,10 +69,16 @@ $StopWatch = $null
 
 ```
 
+This will look like the below:
+
 ![image](https://user-images.githubusercontent.com/33433229/235512304-26ff42dc-a3fa-4c4e-ac5e-8d0075500942.png)
+
+Save the file.
 
 
 ## Step 3 - Close and relaunch your ISE console
+
+You can either launch the script you just pasted, or just close and re-open the ISE console.
 
 ![image](https://user-images.githubusercontent.com/33433229/235512325-7a9ee46a-fb73-4ad4-bc94-d627e1a6fda8.png)
 
